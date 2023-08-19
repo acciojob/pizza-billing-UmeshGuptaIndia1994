@@ -1,4 +1,3 @@
-package com.driver;
 
 public class Pizza {
 
@@ -10,7 +9,7 @@ public class Pizza {
     private boolean addCheese;
     private boolean addToppings;
     private boolean isGenerated;
-    
+
     public Pizza(Boolean isVeg){
         this.isVeg = isVeg;
         // your code goes here
@@ -29,7 +28,7 @@ public class Pizza {
     }
 
     public int getPrice(){
-       return this.totalPrice;
+        return this.totalPrice;
     }
 
     public void addExtraCheese(){
